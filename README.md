@@ -4,7 +4,7 @@ An automatic keyboard layout switcher for Neovim. Made for Fedora 42 on KDE only
 
 This plugin is an adaptation ivanesmantovich's ``xkbswitch.nvim`` plugin for use with Fedora 42 and KDE. So, huge thanks to him for providing the basis of this code.
 
-[Context: "https://github.com/ivanesmantovich/xkbswitch.nvim"]
+https://github.com/ivanesmantovich/xkbswitch.nvim
 
 Note that this plugin doesn't use ``xkbswitch``. It uses ``qdbus`` instead.
 

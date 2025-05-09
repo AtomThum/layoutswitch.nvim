@@ -13,3 +13,13 @@ Note that this plugin doesn't use ``xkbswitch``. It uses ``qdbus`` instead.
 Put the English layout as the first layout, the others can be anything.
 
 When you exit insert mode, the plugin saves your current layout before switching to English. When you enter insert mode again, the saved layout will be automatically switched back.
+
+Using ``lazy`` package manager,
+```lua
+  {
+    "AtomThum/layoutswitch.nvim",
+    config = function()
+      require("layoutswitch").setup()
+    end,
+  },
+```
